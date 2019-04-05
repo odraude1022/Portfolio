@@ -11,13 +11,13 @@ const Resume = props => {
             resumeData.education && resumeData.education.map( item => {
               return(
                 <div key={item.UniversityName}>
-                <h3>{item.UniversityName}</h3>
-                <p className="info">
-                  {item.specialization}
-                  <span>&bull;</span> <em>{item.MonthOfPassing} {item.YearOfPassing}</em></p>
-                <p>
-                {item.Achievements}
-                </p>
+                  <h3>{item.UniversityName}</h3>
+                  <p className="info">
+                    {item.specialization}
+                    <span>&bull;</span> <em>{item.MonthOfPassing} {item.YearOfPassing}</em></p>
+                  <p>
+                  {item.Achievements}
+                  </p>
                 </div>
               )
             })
@@ -49,7 +49,7 @@ const Resume = props => {
               {
                 resumeData.skills && resumeData.skills.map((item) => {
                   return(
-                    <li>
+                    <li key={item.skillname}>
                       <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
                       </span><em>{item.skillname}</em>
                     </li>

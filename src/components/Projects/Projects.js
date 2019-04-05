@@ -9,9 +9,9 @@ const Projects = props => {
         {
           resumeData.portfolio && resumeData.portfolio.map((item)=>{
             return(
-              <div>
-                <a href={`${item.url}`} target="_blank">
-                  <img src={`${item.imgurl}`} className="item-img"/>
+              <div key={item.name}>
+                <a href={`${item.url}`} target="_blank" rel="noopener noreferrer">
+                  <img src={`${item.imgurl}`} className="project-img" alt={`screenshot of ${item.name}`}/>
                   <h5>{item.name}</h5>
                   <p>{item.description}</p>
                 </a>
