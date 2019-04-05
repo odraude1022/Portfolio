@@ -5,6 +5,19 @@ const Projects = props => {
   return (
     <div>
       <h1>Projects</h1>
+      {
+        resumeData.portfolio && resumeData.portfolio.map((item)=>{
+          return(
+            <div>
+              <a href={`${item.url}`} target="_blank">
+                <img src={`${item.imgurl}`} className="item-img"/>
+                <h5>{item.name}</h5>
+                <p>{item.description}</p>
+              </a>
+            </div>
+          )
+        })
+      }
     </div>
   )
 }
