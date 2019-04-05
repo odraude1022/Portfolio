@@ -21,18 +21,23 @@ let resumeData = {
   "website":"eriglesias@ufl.edu",
   "education":[
     {
-      "UniversityName":"Wyncode Academy",
-      "specialization":"Full Stack Web Developer Program",
-      "MonthOfPassing":"March",
-      "YearOfPassing":"2019",
-      "Achievements":"Completed two projects: People That Care, a Rails application that allows users to easily follow charities, donate, and get live news about them, and Pokedome, a react application that allows users to easily look up information about the Pokemon franchise, including searching for pokemon types, moves, and species"
+      "UniversityName":"University of Florida",
+      "specialization":"B.A. in Mathematics, Minors in Actuarial Science and Classical Studies",
+      "MonthOfPassing":"May",
+      "YearOfPassing":"2017",
+      "Achievements":"GPA: 4.0, Eta Sigma Phi (Classics Honor Society) Treasurer, Golden Key International Honour Society, Phi Beta Kappa Society"
     }
   ],
   "work":[
     {
       "CompanyName":"Wyncode Academy",
       "specialization":"Training to prepare for a role as a Full Stack Web Developer",
-      "Achievements":`Received training in programming languages (JavaScript, Ruby, HTML/CSS), web frameworks and libraries (Ruby on Rails, Bootstrap, MVC, React), version control and database management (SQL, PostgreSQL, Git), as well as project management and development (GitHub, Agile Methodologies). Completed 350+ hours of staffed learning and 3,000+ lines of code. Collaborated to build complex applications and original websites`
+      "Achievements":`Received training in programming languages (JavaScript, Ruby, HTML/CSS),
+                      web frameworks and libraries (Ruby on Rails, Bootstrap, MVC, React),
+                      version control and database management (SQL, PostgreSQL, Git),
+                      as well as project management and development (GitHub, Agile Methodologies).
+                      Collaborated to build complex applications and original websites.
+                      Two that I worked on are People That Care and Pokedome, shown above.`
     },
     {
       "CompanyName":"Deutsche Bank",
