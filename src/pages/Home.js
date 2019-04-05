@@ -11,21 +11,11 @@ const Home = () => {
   return (
     <div id="home">
       <Navbar/>
-      <section id="header">
-        <Header resumeData={resumeData}/>
-      </section>
-      <section id="projects">
-        <Projects resumeData={resumeData}/>
-      </section>
-      <section id="about">
-        <About resumeData={resumeData}/>
-      </section>
-      <section id="resume">
-        <Resume resumeData={resumeData}/>
-      </section>
-      <section id="contact">
-        <Contact resumeData={resumeData}/>
-      </section>
+      <Header resumeData={resumeData}/>
+      <Projects resumeData={resumeData}/>
+      <About resumeData={resumeData}/>
+      <Resume resumeData={resumeData}/>
+      <Contact resumeData={resumeData}/>
     </div>
   )
 }
