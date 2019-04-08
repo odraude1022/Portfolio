@@ -31,7 +31,7 @@ let resumeData = {
   "work":[
     {
       "CompanyName":"Wyncode Academy",
-      "specialization":"Training to prepare for a role as a Full Stack Web Developer",
+      "specialization":"Full Stack Web Development Program",
       "Achievements":`Received training in programming languages (JavaScript, Ruby, HTML/CSS),
                       web frameworks and libraries (Ruby on Rails, Bootstrap, MVC, React),
                       version control and database management (SQL, PostgreSQL, Git),
