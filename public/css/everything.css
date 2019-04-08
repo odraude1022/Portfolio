@@ -395,3 +395,26 @@ div.skills {
   -moz-animation: reactjs 2s ease;
   -webkit-animation: reactjs 2s ease;
 }
+
+
+/* Contact component */
+
+#contact {
+  background-color: #191919;
+  padding: 5rem;
+  font-size: 110%;
+  margin: -1em;
+  margin-bottom: -1.3em;
+}
+
+.contact-intro {
+  color: #636363;
+}
+
+.contact h4 {
+  color: #EBEEEE;
+}
+
+.contact h4 a {
+  color: #EBEEEE;
+}

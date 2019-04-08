@@ -4,8 +4,8 @@ const Contact = props => {
   let resumeData = props.resumeData
   return (
     <section id="contact">
-      <div>
-        <p>Feel free to contact me below</p>
+      <div className="contact">
+        <p className="contact-intro">Feel free to contact me below</p>
         <h4>{resumeData.website}</h4>
         <h4>(305)-992-7547</h4>
         <h4>
