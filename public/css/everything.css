@@ -191,12 +191,37 @@ ul#nav li.current a {
 /* about component  */
 
 #about {
-  background-color: #2B2B2B
+  padding: 6rem;
+  background-color: #2B2B2B;
+  margin-left: -1rem;
+  margin-right: -1rem;
 }
 
-#about .profile-pic {
+.about {
+  display: flex;
+}
+
+.profile-pic-wrap {
+  flex: 25%;
+  margin-right: 3rem;
+}
+
+.about .profile-pic {
    position: relative;
    width: 200px;
    height: 250px;
    border-radius: 100%;
+}
+
+.about-content {
+  padding-right: 3rem;
+  line-height: 30px;
+}
+
+.about h2{
+  color: #fff;
+}
+
+.about p {
+  color: #7A7A7A;
 }
