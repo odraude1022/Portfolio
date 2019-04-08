@@ -2,6 +2,8 @@
 @import url("fontello/css/fontello.css");
 @import url("font-awesome/css/font-awesome.min.css");
 
+/* everything  */
+
 html {
   scroll-behavior: smooth;
 }
@@ -9,6 +11,20 @@ html {
 ul {
   list-style: none;
 }
+
+a, a:visited {
+   text-decoration: none;
+   outline: 0;
+   color: black;
+}
+
+a:hover, a:focus {
+  color: grey;
+}
+
+
+/* navbar */
+
 
 #nav-wrap {
    font: 12px 'opensans-bold', sans-serif;
@@ -63,6 +79,10 @@ ul#nav li a:active {
 ul#nav li.current a {
   color: #F06000;
  }
+
+
+/* header component  */
+
 
  #header {
   margin-top: 4.5em;
@@ -130,14 +150,53 @@ ul#nav li.current a {
    color: #fff;
  }
 
-#about .profile-pic {
-   position: relative;
-   width: 200px;
-   height: 250px;
-   border-radius: 100%;
+/* portfolio component */
+
+#projects {
+  margin-bottom: 4rem;
+}
+
+.project-headline {
+  text-align: center;
+}
+
+.projects{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-gap: 50px;
+}
+
+.projects{
+  display: grid;
+  place-items: center;
+}
+
+.project a h5 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.project a p {
+  text-align: center;
+  width: 450px;
 }
 
 .project-img {
   width: 450px;
   height: 280px;
+  display: block;
+  margin: auto;
+}
+
+/* about component  */
+
+#about {
+  background-color: #2B2B2B
+}
+
+#about .profile-pic {
+   position: relative;
+   width: 200px;
+   height: 250px;
+   border-radius: 100%;
 }
