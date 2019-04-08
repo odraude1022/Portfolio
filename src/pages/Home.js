@@ -1,10 +1,11 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import About from "../components/About/About";
-import Contact from "../components/Contact/Contact";
-import Projects from "../components/Projects/Projects";
-import Resume from "../components/Resume/Resume"
 import Header from "../components/Header/Header"
+import Projects from "../components/Projects/Projects";
+import About from "../components/About/About";
+import Resume from "../components/Resume/Resume"
+import Contact from "../components/Contact/Contact";
+import Footer from "../components/Footer/Footer"
 import resumeData from '../resumeData';
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <About resumeData={resumeData}/>
       <Resume resumeData={resumeData}/>
       <Contact resumeData={resumeData}/>
+      <Footer resumeData={resumeData}/>
     </div>
   )
 }

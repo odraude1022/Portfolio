@@ -418,3 +418,17 @@ div.skills {
 .contact h4 a {
   color: #EBEEEE;
 }
+
+
+
+/* footer component  */
+
+#footer {
+  background-color: black;
+  margin: -2em;
+  padding-bottom: 10em;
+}
+
+.footer-social{
+  color: #525252 !important;
+}
