@@ -8,6 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+    line-height: 30px;
+}
+
 ul {
   list-style: none;
 }
@@ -215,7 +219,6 @@ ul#nav li.current a {
 
 .about-content {
   padding-right: 3rem;
-  line-height: 30px;
 }
 
 .about h2{
@@ -224,4 +227,171 @@ ul#nav li.current a {
 
 .about p {
   color: #7A7A7A;
+}
+
+
+/* resume component  */
+
+.education {
+  display: flex;
+}
+
+.education-title {
+  flex: 25%;
+}
+
+.education-content {
+  flex: 75%;
+}
+
+.work {
+  display: flex;
+}
+
+.work-title {
+  flex: 25%;
+}
+
+.work-content {
+  flex: 75%;
+}
+
+.info {
+  font-size: 16px;
+  color: #6E7881;
+}
+
+.resume-title h3 {
+  color: #313131;
+}
+
+.achievements {
+  color: #838C95;
+}
+
+div.skills {
+  display: flex;
+}
+
+.skills-title {
+  flex: 25%;
+}
+
+.bars {
+  padding-right: 5rem;
+  margin-top: 5rem;
+  flex: 75%;
+}
+.bars .skills {
+  margin-top: 36px;
+   list-style: none;
+}
+.bars li {
+  position: relative;
+  margin-bottom: 60px;
+  background: #ccc;
+  height: 42px;
+  border-radius: 3px;
+}
+.bars li em {
+	font: 15px 'opensans-bold', sans-serif;
+   color: #313131;
+	text-transform: uppercase;
+   letter-spacing: 2px;
+	font-weight: normal;
+   position: relative;
+	top: -36px;
+}
+.bar-expand {
+   position: absolute;
+   left: 0;
+   top: 0;
+
+   margin: 0;
+   padding-right: 24px;
+  	background: #313131;
+   display: inline-block;
+  	height: 42px;
+   line-height: 42px;
+   border-radius: 3px 0 0 3px;
+}
+
+.css {
+  	width: 40%;
+  	-moz-animation: css 2s ease;
+  	-webkit-animation: css 2s ease;
+}
+.html5 {
+  	width: 40%;
+  	-moz-animation: html5 2s ease;
+  	-webkit-animation: html5 2s ease;
+}
+.reactjs {
+  	width: 80%;
+  	-moz-animation: reactjs 2s ease;
+  	-webkit-animation: reactjs 2s ease;
+}
+
+.ruby {
+  width: 60%;
+  -moz-animation: reactjs 2s ease;
+  -webkit-animation: reactjs 2s ease;
+}
+
+.javascript {
+  width: 80%;
+  -moz-animation: reactjs 2s ease;
+  -webkit-animation: reactjs 2s ease;
+}
+
+.rails {
+  width: 60%;
+  -moz-animation: reactjs 2s ease;
+  -webkit-animation: reactjs 2s ease;
+}
+.sql {
+  width: 60%;
+  -moz-animation: reactjs 2s ease;
+  -webkit-animation: reactjs 2s ease;
+}
+.git {
+  width: 60%;
+  -moz-animation: reactjs 2s ease;
+  -webkit-animation: reactjs 2s ease;
+}
+
+.github {
+  width: 60%;
+  -moz-animation: reactjs 2s ease;
+  -webkit-animation: reactjs 2s ease;
+}
+
+.bash {
+  width: 40%;
+  -moz-animation: reactjs 2s ease;
+  -webkit-animation: reactjs 2s ease;
+}
+
+.excel {
+  width: 40%;
+  -moz-animation: reactjs 2s ease;
+  -webkit-animation: reactjs 2s ease;
+}
+
+.java {
+  width: 20%;
+  -moz-animation: reactjs 2s ease;
+  -webkit-animation: reactjs 2s ease;
+}
+
+.python {
+  width: 20%;
+  -moz-animation: reactjs 2s ease;
+  -webkit-animation: reactjs 2s ease;
+}
+
+.r {
+  width: 20%;
+  -moz-animation: reactjs 2s ease;
+  -webkit-animation: reactjs 2s ease;
 }
